@@ -36,7 +36,7 @@ class MyClass2
    };
 
 
-
+ 
 template <class T>
 class set
 {
@@ -79,16 +79,8 @@ class Point
 
 int main()
 {
-	{
-	A a(-1);
-   	{
-		A a(0);
-		A a1(1);
-		throw "Error executed.";
-		A a2(2);
-   	}
-   	A a1(4);
-	}
 
+
+	printf("Hello");
 	getchar();
 }
