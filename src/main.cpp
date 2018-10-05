@@ -80,7 +80,7 @@ class Point
 int main()
 {
 
-
-	printf("Hello");
+    for(int i=0; i<10; i++)
+	printf("Hello"+i);
 	getchar();
 }
