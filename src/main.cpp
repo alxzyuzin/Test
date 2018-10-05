@@ -90,5 +90,7 @@ int j=0;
 			if (j++>5)
 				break;
 		}
+
+	printf("Yet another version");
 	getchar();
 }
