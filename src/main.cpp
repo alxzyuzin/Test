@@ -80,7 +80,17 @@ class Point
 int main()
 {
 
+    for(int i=0; i<10; i++)
+		printf("Hello "+i);
 
-	printf("Hello");
+int j=0;
+		while (true)
+		{
+			printf("haha");
+			if (j++>5)
+				break;
+		}
+
+	printf("Yet another version");
 	getchar();
 }
